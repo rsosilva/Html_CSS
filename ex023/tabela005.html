@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .c_sexo{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="c_nome">
+            <col class="c_sexo" span="2">
+            <col class="c_prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Dentista</td>
+        </tr>
+        <tr>
+            <td>Renato</td>
+            <td>M</td>
+            <td>48</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Celso</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+</body>
+</html>
