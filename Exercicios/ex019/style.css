@@ -1,0 +1,39 @@
+ @charset "UTF-8";
+
+ /* 
+  em html é id = em css é #;
+  em html é class = em css é .
+
+  obs: id é único e class são multiplos
+ */
+
+ body{
+    background-color:#47C3FF;
+    font-family: arial, sans-serif;
+ }
+
+ h1{
+    color: #4572F5;
+ }
+
+ h1#principal{
+    text-align: center;
+    background-color: ##47C3FF;
+}
+
+ h2{
+    color: #47FF9A);
+ }
+
+ .basico{
+    color: yellow;
+ }
+ .intermediario{
+    color: red;
+ }
+ .avancado{
+    color: orange;
+ }
+ .destaque{
+    background-color: rgb(245, 245, 180);
+ }
