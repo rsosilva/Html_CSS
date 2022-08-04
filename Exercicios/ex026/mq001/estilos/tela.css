@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -18,3 +18,20 @@ header > h1 {
     text-align: center;
 }
 
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+} 
+
+menu li {
+    display: inline-block;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    padding: 10px;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
